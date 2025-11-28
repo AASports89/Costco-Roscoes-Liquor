@@ -67,9 +67,9 @@ function App() {
 <footer id='footer' className="navbar navbar-expand-lg navbar-light bg-light">
     <div className='mx-auto'>
     <a id="icon-link" className="col px-5" href="https://aasports89.github.io/Personal-Coach/">
-      <img id="royal-icon" className='img-card-overlay' src={favicon} alt="Personal Coach"></img>
+      <img id="royal-icon" className='img-card-overlay' src={favicon} alt="Costco Roscoe's Liquor"></img>
     </a>
-    <p className="mx-auto" data-aos="flip-down" id="footer-title"><b id="footer-bold">© Personal Coach - {year}. All Rights Reserved.</b></p>
+    <p className="mx-auto" data-aos="flip-down" id="footer-title"><b id="footer-bold">© Costco Roscoe's Liquor - {year}. All Rights Reserved.</b></p>
     <a id="icon-link" className="col px-5" href="https://www.facebook.com">
       <i data-aos="slide-right" id="twitter" className="fa-brands fa-facebook"></i>
     </a> 
