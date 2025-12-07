@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Costco-Roscoes-Liquor/static/css/main.eeeeba60.css",
+    "main.js": "/Costco-Roscoes-Liquor/static/js/main.a582987b.js",
+    "static/media/logo.svg": "/Costco-Roscoes-Liquor/static/media/logo.d53f5bf3ce4bac5c0e3cafaabb3a3dba.svg",
+    "static/media/spirits.svg": "/Costco-Roscoes-Liquor/static/media/spirits.1ff86c13bf7fb1ac9376311172b404ec.svg",
+    "static/media/spirits2.svg": "/Costco-Roscoes-Liquor/static/media/spirits2.7b66509973daf55fe835f24106053347.svg",
+    "index.html": "/Costco-Roscoes-Liquor/index.html",
+    "main.eeeeba60.css.map": "/Costco-Roscoes-Liquor/static/css/main.eeeeba60.css.map",
+    "main.a582987b.js.map": "/Costco-Roscoes-Liquor/static/js/main.a582987b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eeeeba60.css",
+    "static/js/main.a582987b.js"
+  ]
+}
