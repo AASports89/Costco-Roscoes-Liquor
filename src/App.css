@@ -13,10 +13,6 @@
   background-color: transparent;
 }
 
-.modal-body {
-  margin-top: 5%;
-}
-
 .error {
   color: red;
   font-weight: 600;
@@ -24,15 +20,44 @@
 }
 
 #btn-home {
-  width: 25%;
   border: none;
   border-radius: 0.5em;
   background-color: transparent;
+  cursor: pointer;
+}
+
+#shell-logo:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 305%;
+  background-color: #abd0f3;
+  padding: 15%;
+  border-radius: 0.5em;
+}
+
+#shell-logo {
+  width: 300%;
+}
+
+#close-btn {
+  border: solid ;
+  background: transparent;
+  color: #D22222;
+  font-weight: bold;
+  width: 20%;
+}
+
+#close-btn:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(207, 2, 2);
+  color: whitesmoke;
+  border: solid whitesmoke;
 }
 
 #alert {
-  font-weight: bold;
-  border: 1.5px solid red;
+  font-weight: bold #abd0f3;
+  border: 1.5px solid rgb(207, 2, 2);
   border-radius: 1em;
 }
 
@@ -77,16 +102,7 @@
   width: 20%;
 }
 
-#embed-1 {
-  margin-bottom: 5%;
-}
-
-#embed-1 {
-  border-radius: 0.5em;
-}
-
 #header {
-
   font-size: 175%;
   border-radius: 0.5em;
 }
@@ -94,7 +110,6 @@
 .card {
   border: none;
 }
-
 
 #logo {
   width: 10%;
@@ -106,60 +121,12 @@
   justify-content: center;
 }
 
-#purpose_row {
-  margin: 2%;
-  width: 50%;
-}
-
 #input-log {
   margin-bottom: 5%;
 }
 
-#purpose {
-  width: 100%;
-  background-color: transparent;
-}
-
-#subscribe {
-  width: 35%;
-  font-weight: bold;
-}
-
-#purpose_title {
-  font-size: 300%;
-  font-weight: bold;
-  background: -webkit-linear-gradient(#e96915, #f0e476);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-#purpose_text {
-  font-size: 175%;
-  font-weight: bold;
-}
-
-#purpose_logo {
-  width: 40%;
-  margin: 1%;
-}
-
-#tips_icon {
-  width: 20%;
-}
-
-#tips_icon_1 {
-  width: 5%;
-}
-
-#tips_icon:hover {
-  color:rgb(6, 6, 195);
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  font-size: 105%;
-}
-
 #login_icon {
-  width: 10%;
+  width: 15%;
 }
 
 #logout_icon {
@@ -173,51 +140,6 @@
   font-size: 105%;
 }
 
-#tips_title {
-  font-size: 200%;
-  font-weight: bold;
-  background: -webkit-linear-gradient(#1153cf, #acd1f7);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-#tips_text {
-  font-size: 100%;
-  font-weight: bold;
-}
-
-#vault_col {
-  margin: 2%;
-}
-
-#vault_icon {
-  width: 30%;
-}
-
-#vault_card {
-  width: 100%;
-  background-color: transparent;
-}
-
-#vault_title {
-  font-size: 300%;
-  font-weight: bold;
-  background: -webkit-linear-gradient(#4299e0, #999a9b);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 3%;
-}
-
-#vault_text {
-  font-size: 200%;
-  font-weight: bold;
-}
-
-#count_btn {
-  width: 35%;
-  font-weight: bold;
-}
-
 #home {
   color:#0606c3;
   text-decoration: none;
@@ -229,8 +151,30 @@
   width: 125%;
 }
 
-#close-btn {
-  color: #c30606;
+#btn-close {
+  font-size: 200%;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgb(113, 113, 113);
+  border: none;
+  margin-top: -2.5%;
+}
+
+#btn-close:hover {
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+font-size: 210%;
+-webkit-background-clip: text;
+-webkit-text-fill-color: #D22222;
+}
+
+#exampleModalLabel {
+  width: 200%;
+}
+
+#login_modal {
+  border: solid 1px black;
+  border-radius: 0.5em;
 }
 
 #un_label {
@@ -251,11 +195,40 @@
   font-size: 30pt;
 }
 
+#driver_icon {
+  color: rgb(189, 194, 200);
+  font-size: 30pt;
+}
+
+#fill_icon {
+  color: #D22222;
+  font-size: 30pt;
+}
+
+#cost_icon {
+  color:#017713;
+  font-size: 30pt;
+}
+
+#login-btn {
+  border: none;
+  background: transparent;
+  font-weight: bold;
+}
+
+#logs-btn {
+  border: none;
+  background: none;
+}
+
 #login-btn:hover {
-  color:rgb(6, 6, 195);
+  color:rgb(252, 254, 254);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   font-size: 105%;
+  background-color: #abd0f3;
+  padding: 1%;
+  border-radius: 0.5em;
 }
 
 #logs-btn:hover {
@@ -279,7 +252,7 @@
 }
 
 #login-icon {
-  margin-right: 2%;
+  /* margin-right: 2%; */
   color: rgb(6, 6, 195);
 }
 
@@ -307,61 +280,9 @@
   font-size: 105%;
 }
 
-#resources {
-  color:rgb(6, 6, 195);
-  text-decoration: none;
-  font-size: 90%;
-}
-
-#resources-icon {
-  margin-right: 2%;
-}
-
-#resources:hover {
-  color: #87a2ae;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  font-size: 105%;
-}
-
-#testimonials {
-  color:rgb(6, 6, 195);
-  text-decoration: none;
-  font-size: 90%;
-}
-
-#testimonials-icon {
-  margin-right: 2%;
-}
-
-#testimonials:hover {
-  color: #87a2ae;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  font-size: 105%;
-}
-
-#vault {
-  color:rgb(6, 6, 195);
-  text-decoration: none;
-  font-size: 90%;
-}
-
-#vault-icon {
-  margin-right: 2%;
-}
-
-#vault:hover {
-  color: #87a2ae;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  font-size: 105%;
-}
-
 #footer-card {
   background: none;
   border: none;
-  
 }
 
 #footer-title {
@@ -425,12 +346,33 @@
   border-radius: 0.5em;
 }
 
+#nav-btns {
+  background: transparent;
+  width: 200%;
+}
+
 #login-un {
   margin-bottom: 5%;
 }
 
-#login-pw{
-  margin-bottom: 5%;
+#pw_login {
+  font-weight: bold;
+  background-color: #017713;
+  color: whitesmoke;
+}
+
+#pw_login:hover {
+  color:#017713;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 105%;
+  background: transparent;
+  border: solid #017713;
+}
+
+#exampleModalLabel {
+  text-align: center;
+  font-weight: bold;
 }
 
 #footer-bold {
@@ -449,7 +391,6 @@
 .accordion {
   background-color: #eee;
   cursor: pointer;
-  padding: 18px;
   width: 100%;
   text-align: center;
   border: none;
