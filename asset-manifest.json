@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Bloomington-Mini-Mart/static/css/main.bdfbf878.css",
-    "main.js": "/Bloomington-Mini-Mart/static/js/main.2a9a6572.js",
-    "static/media/nav_logo.svg": "/Bloomington-Mini-Mart/static/media/nav_logo.5eefc26964917e80aa5564e04b3f6b8d.svg",
+    "main.css": "/Bloomington-Mini-Mart/static/css/main.53398639.css",
+    "main.js": "/Bloomington-Mini-Mart/static/js/main.df37268d.js",
     "static/media/login.svg": "/Bloomington-Mini-Mart/static/media/login.fb0498c91442cc8cfb727fd13c7f2c8c.svg",
+    "static/media/favicon.svg": "/Bloomington-Mini-Mart/static/media/favicon.4fe53a9504dc92e8a368f0a744cee9ab.svg",
+    "static/media/nav_logo.svg": "/Bloomington-Mini-Mart/static/media/nav_logo.4fe53a9504dc92e8a368f0a744cee9ab.svg",
+    "static/media/shell_bg.svg": "/Bloomington-Mini-Mart/static/media/shell_bg.f0c7232eec7dd9a46e98.svg",
     "static/media/logout.svg": "/Bloomington-Mini-Mart/static/media/logout.ceaa50631536ecf39477afe283b7f993.svg",
-    "static/media/shell_bg.svg": "/Bloomington-Mini-Mart/static/media/shell_bg.a892cbb6635f85f088fe.svg",
-    "static/media/favicon.svg": "/Bloomington-Mini-Mart/static/media/favicon.dc75219af3f061cd4546290513e7e531.svg",
     "index.html": "/Bloomington-Mini-Mart/index.html",
-    "main.bdfbf878.css.map": "/Bloomington-Mini-Mart/static/css/main.bdfbf878.css.map",
-    "main.2a9a6572.js.map": "/Bloomington-Mini-Mart/static/js/main.2a9a6572.js.map"
+    "main.53398639.css.map": "/Bloomington-Mini-Mart/static/css/main.53398639.css.map",
+    "main.df37268d.js.map": "/Bloomington-Mini-Mart/static/js/main.df37268d.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdfbf878.css",
-    "static/js/main.2a9a6572.js"
+    "static/css/main.53398639.css",
+    "static/js/main.df37268d.js"
   ]
 }
